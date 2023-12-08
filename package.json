@@ -1,0 +1,31 @@
+{
+  "name": "sip2mqtte",
+  "version": "1.0.0",
+  "description": "A mini app that subscribes to SIP extensions to publish their status on mqtt",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zubrick/sip2mqtt.git"
+  },
+  "keywords": [
+    "sip.js",
+    "udp",
+    "mqtt"
+  ],
+  "author": "Zubrick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zubrick/sip2mqtt/issues"
+  },
+  "homepage": "https://github.com/zubrick/sip2mqtt#readme",
+  "dependencies": {
+    "mqtt": "^5.3.3",
+    "sip.js": "^0.21.2",
+    "xml2js": "^0.6.2"
+  }
+}

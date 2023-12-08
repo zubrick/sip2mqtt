@@ -1,0 +1,14 @@
+module.exports = {
+  sipPort: 5060,
+  sipBind: '0.0.0.0',
+  sipServer: 'your sip server',
+  localHost: 'your local ip',
+  sipUser: 'sip username',
+  sipPass: 'sip password',
+  telNum: 'extension number',
+  mqttUri: 'mqtt://user:password@server:1883',
+  extensions: [
+    '131',
+    '132'
+  ]
+};
