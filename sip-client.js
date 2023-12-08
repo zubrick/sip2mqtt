@@ -1,6 +1,5 @@
-import { UserAgent, Inviter, Subscriber, Registerer, Notification } from 'sip.js';
+import { UserAgent, Subscriber, Registerer, Notification } from 'sip.js';
 import udpTransport from './udp-transport.js';
-import SessionDescriptionHandler from './sdp.js';
 import { parseString } from "xml2js";
 
 class SIP {

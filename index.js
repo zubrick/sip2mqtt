@@ -1,5 +1,5 @@
 import SipClient from './sip-client.js';
-import mqttClient from "mqtt";
+import MqttClient from "mqtt";
 import config from './config.js';
 
 const sipClient = new SipClient({
@@ -13,7 +13,7 @@ const sipClient = new SipClient({
 });
 
 
-const mqtt = mqttClient.connect(config.mqttUri);
+const mqtt = MqttClient.connect(config.mqttUri);
 
 function notify(num, dialog) {
   const numdialog = dialog.length;

@@ -1,4 +1,4 @@
-module.exports = {
+const config = {
   sipPort: 5060,
   sipBind: '0.0.0.0',
   sipServer: 'your sip server',
@@ -12,3 +12,4 @@ module.exports = {
     '132'
   ]
 };
+export default config;

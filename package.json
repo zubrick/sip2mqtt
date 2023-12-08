@@ -1,5 +1,5 @@
 {
-  "name": "sip2mqtte",
+  "name": "sip2mqtt",
   "version": "1.0.0",
   "description": "A mini app that subscribes to SIP extensions to publish their status on mqtt",
   "main": "index.js",
